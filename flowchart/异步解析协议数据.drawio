@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T10:36:17.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="5MHN7xexqexu-rB0EWzX" version="16.6.3" type="github"><diagram id="7ACB99--ggqTHxi02AG_" name="第 1 页">zZZdj6IwFIZ/TS8nKaCol6g4czGTmHGT3dtKj9DdQk2pgvPrt0AR+ZiJM+66m5jYvqenlPdpT0HOIs4fJdlHL4ICRzamOXKWyLatkW2j4ofpqVKmeFQJoWTUDGqEDXsDI2KjHhiFtDVQCcEV27fFQCQJBKqlESlF1h62E7z91D0JoSdsAsL76ndGVWRUF+Mm8AQsjMyjZ3UgJvVgI6QRoSK7kBwfOQsphKpacb4AXphX+1Llrd6JnhcmIVHXJGQ/kuXz0+iX86petlF0HG1+Rg9mliPhB/PCzyxVyHZJvEfOnOuZ5yu9xLVkSSOHhax7ZXgrdatSfBfNFmi6RP4YTT3kWcifIG+OvFWp+GhWNrwJmlaDx2iOi4ZO8XxjkzrV3ktxSCgUy8d69ixiCjZ7EhTRTO82rUUq5rpnlcvp2lG/G0gF+YVk7HkEEYOSJz0kr/dmlXGqN6/pZxfga5rRBXPXaMTstfA8c4NDNwyRT9Cxe3TOCJJtWvytpVAiEPwVAmBHWBJF1vp4DLG5AoBuzC3k4XLMEs3wB0isuyBx3CuYuPdkMhpg0jEJEuoVpUf3Ak7SlAVtX9r7+l2XgLZKU98jCZwoTb1d9AZe2KSuRXmIa29t3PF20vEsFQcZgMm6rCydiXqQuhMpIkNQvYlK/8/v83Uk434RI9viHupy0YZWEc0AUvZGtmUIt/EQzsKkYKeBgNRCsV2ZvhI8E4gZpUXiALqPtoy5osxDm4vhitPwVdIGyIPVASJ2uxT+Cgu3x2JT7qJbYXDYqQEUW6GUiO+JIq8trTKuJnNT0Zn0XP1WHqlbXZVVwfx/bL2rq9Oeq53rVHfpIdA14F9/mbjdUj10DU7+zDWou81HaVUWmk97x/8N</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T11:02:43.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="GFS4tjibSgks8HlDwdOl" version="16.6.3" type="github">
+  <diagram id="7ACB99--ggqTHxi02AG_" name="第 1 页">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-1" value="List&amp;lt;FootPrint&amp;gt;&lt;br&gt;服务端原始数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="170" as="sourcePoint" />
+            <mxPoint x="360" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-5" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="wXnDLH4k3RtMbhhv4Sjh-4" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-6" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="wXnDLH4k3RtMbhhv4Sjh-4" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-7" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="wXnDLH4k3RtMbhhv4Sjh-4" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wXnDLH4k3RtMbhhv4Sjh-8" target="B1jeRalidriXLCVVaQHe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wXnDLH4k3RtMbhhv4Sjh-8" value="ProtocolReceiveProducer&lt;br&gt;异步提取数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-1" value="&lt;span&gt;&amp;nbsp;ProtocolReceiveDataPool&lt;/span&gt;&lt;br&gt;&lt;span&gt;原始数据池&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.453;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B1jeRalidriXLCVVaQHe-1" target="wXnDLH4k3RtMbhhv4Sjh-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="330" as="sourcePoint" />
+            <mxPoint x="750" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="30" />
+              <mxPoint x="620" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B1jeRalidriXLCVVaQHe-3" target="B1jeRalidriXLCVVaQHe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-3" value="getData" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-5" value="parseData&lt;br&gt;解析成指令数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-7" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="310" as="sourcePoint" />
+            <mxPoint x="660" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="310" />
+              <mxPoint x="940" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-9" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-10" value="获取不到数据一直阻塞" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-11" value="&lt;span&gt;&amp;nbsp;&lt;/span&gt;ProtocolResultDataPool&lt;br&gt;&lt;span&gt;指令结果数据池&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B1jeRalidriXLCVVaQHe-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B1jeRalidriXLCVVaQHe-5" target="B1jeRalidriXLCVVaQHe-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
