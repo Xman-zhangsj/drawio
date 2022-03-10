@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T07:04:03.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="sUitntmEvd0_u8VQh1EP" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T07:29:33.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="bo25LSOZ_RveN2ev51jb" version="16.6.3" type="github">
   <diagram id="7ACB99--ggqTHxi02AG_" name="第 1 页">
     <mxGraphModel dx="981" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200000" pageHeight="200000" background="#ffffff" math="0" shadow="1">
       <root>
@@ -164,9 +164,9 @@
           <mxGeometry x="1145" y="580" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-53" value="sendUnHistoryMessage" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1230" y="1180" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dS3C1zyS_FDlHXuVjq6P-55" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-55" value="sendHistoryMessage" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-57" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -174,6 +174,12 @@
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-58" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1195" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-59" value="发送到主线程并根绝数据size大小进行分片，总耗时确认在200ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-60" value="历史数据直接在当前子线程进行处理，拼装和预加载完成后。切换到主线程刷新一次即可。在处理历史数据的过程中不允许处理非历史数据，待历史数据处理完成后再处理非历史数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1150" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
