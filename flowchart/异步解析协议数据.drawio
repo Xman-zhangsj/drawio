@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T06:36:31.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="dLWJBSc_KN8qTO97bEqV" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T06:56:25.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="AjjAWzoOGhzsEzmsC7_G" version="16.6.3" type="github">
   <diagram id="7ACB99--ggqTHxi02AG_" name="第 1 页">
     <mxGraphModel dx="1185" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200000" pageHeight="200000" background="#ffffff" math="0" shadow="1">
       <root>
@@ -80,8 +80,10 @@
             <mxPoint x="600" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dS3C1zyS_FDlHXuVjq6P-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wC-LAIP66NV9Si885ggX-1" target="dS3C1zyS_FDlHXuVjq6P-37">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wC-LAIP66NV9Si885ggX-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wC-LAIP66NV9Si885ggX-1" value="ProtocolReceiveConsumer&lt;br&gt;异步提取数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1025" y="440" width="170" height="60" as="geometry" />
@@ -100,29 +102,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-37" value="getData" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="600" width="80" height="80" as="geometry" />
+          <mxGeometry x="1070" y="760" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dS3C1zyS_FDlHXuVjq6P-39" value="SendToDrawHelper" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="770" width="120" height="60" as="geometry" />
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dS3C1zyS_FDlHXuVjq6P-39" target="dS3C1zyS_FDlHXuVjq6P-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-39" value="SendToDrawHelper&lt;br&gt;发送至主线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-41" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="710" width="60" height="30" as="geometry" />
+          <mxGeometry x="1110" y="870" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-42" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="640" width="60" height="30" as="geometry" />
+          <mxGeometry x="1180" y="800" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-43" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1145" y="640" as="sourcePoint" />
-            <mxPoint x="1110" y="590" as="targetPoint" />
+            <mxPoint x="1155" y="800" as="sourcePoint" />
+            <mxPoint x="1120" y="750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1330" y="640" />
-              <mxPoint x="1390" y="600" />
+              <mxPoint x="1340" y="800" />
+              <mxPoint x="1400" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dS3C1zyS_FDlHXuVjq6P-44" value="获取不到数据一直阻塞" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="610" width="150" height="30" as="geometry" />
+          <mxGeometry x="1150" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-45" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dS3C1zyS_FDlHXuVjq6P-47" target="dS3C1zyS_FDlHXuVjq6P-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-47" value="canSend" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1155" y="610" as="sourcePoint" />
+            <mxPoint x="1120" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="610" />
+              <mxPoint x="1400" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-50" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-51" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dS3C1zyS_FDlHXuVjq6P-52" value="不能发送等待DELAY_TIME" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="580" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
